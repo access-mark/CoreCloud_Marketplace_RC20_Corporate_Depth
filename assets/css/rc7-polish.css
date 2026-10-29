@@ -1,0 +1,22 @@
+/* RC7: editorial polish and accessibility; no payment claims */
+.site-header .header-row{min-height:116px;gap:20px}
+.site-header .brand{gap:15px;min-width:0}
+.site-header .brand img{width:108px;height:108px;flex:none;object-fit:contain}
+.site-header .brand b{font-size:13px;letter-spacing:.07em;font-weight:700}
+.site-header .brand small{font-size:9px;letter-spacing:.12em}
+.site-header .nav{gap:2px}.site-header .nav a{font-size:12px;padding:9px 10px}
+.rc6-hero .hero-grid{grid-template-columns:minmax(0,1.14fr) minmax(0,1fr);gap:clamp(24px,3vw,55px)}
+.rc6-hero h1,.page-hero.rc6-hero h1{font-weight:500;letter-spacing:-.045em;line-height:1.09}
+.rc6-hero h1{font-size:clamp(48px,4.75vw,80px);max-width:780px}
+.page-hero.rc6-hero h1{font-size:clamp(45px,4.7vw,76px);max-width:970px}
+.rc6-hero .lead{max-width:660px}
+.section-head h2,.cta-panel h2{font-weight:600;letter-spacing:-.045em}
+.field label,.form-grid label{color:#244457;font-size:13px;font-weight:650}
+.field input,.field textarea,.field select,.form-grid input,.form-grid textarea,.form-grid select{border:1px solid #72909f;background:#fff;color:#102535}
+.field input::placeholder,.field textarea::placeholder,.form-grid input::placeholder,.form-grid textarea::placeholder{color:#5d7180;opacity:1}
+.field input:focus-visible,.field textarea:focus-visible,.field select:focus-visible,.form-grid input:focus-visible,.form-grid textarea:focus-visible,.form-grid select:focus-visible{outline:3px solid #3ca7b2;outline-offset:2px}
+.section:nth-of-type(even) .specs span,.section .product-card .specs span{color:#385568;border-color:#a5bdc9}
+.section{padding-block:88px}
+@media(max-width:1180px){.site-header .brand img{width:86px;height:86px}.site-header .header-row{min-height:100px}.site-header .nav a{font-size:11px;padding:8px}}
+@media(max-width:800px){.site-header .brand img{width:76px;height:76px}.site-header .header-row{min-height:90px}.site-header .nav{top:90px}.rc6-hero .hero-grid{grid-template-columns:1fr}.rc6-hero h1{font-size:clamp(43px,7vw,66px)}.section{padding-block:68px}}
+@media(max-width:560px){.site-header .brand img{width:72px;height:72px}.site-header .brand b{font-size:11px}.site-header .brand small{font-size:8px}.rc6-hero h1{font-size:clamp(39px,10vw,54px)}.page-hero.rc6-hero h1{font-size:clamp(38px,10vw,55px)}.section{padding-block:56px}}

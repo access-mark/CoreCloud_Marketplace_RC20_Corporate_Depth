@@ -1,0 +1,27 @@
+/* RC19 visual and accessibility remediation */
+html,body{max-width:100%;overflow-x:clip}
+.container{width:min(1392px,calc(100% - 64px));margin-inline:auto}
+.rc6-hero{padding:42px 0 64px;min-height:0}
+.rc6-hero .hero-grid{display:grid;grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);gap:clamp(28px,4vw,68px);min-height:0;padding:18px 0}
+.rc6-hero .hero-grid>div{min-width:0}
+.rc6-hero h1{font-size:clamp(40px,4.5vw,74px);line-height:1.09;max-width:100%;overflow-wrap:normal;text-wrap:pretty;margin:18px 0 22px}
+.rc6-photo{transform:none!important;min-height:0;align-self:center;max-width:100%}
+.rc6-photo img{height:auto;max-height:520px;aspect-ratio:1.35;object-fit:cover;object-position:center;border-radius:20px;mask-image:none!important}
+.sa-feature>div{min-width:0}.sa-feature img{width:100%;max-width:100%}
+.sa-section.light{color:#102635!important}
+.sa-section.light h2,.sa-section.light h3,.sa-section.light .sa-card h3{color:#102635!important}
+.sa-section.light .sa-intro,.sa-section.light p{color:#455f70!important}
+.sa-section.light .sa-card{background:#fff;color:#102635}
+.sa-section.light .sa-card p{color:#455f70!important}
+.sa-section.light .sa-card a{color:#006c80}
+.sa-section.light .sa-eyebrow{color:#007d88}
+.sa-section.dark h2,.sa-section.dark h3{color:#f6fbff}
+.sa-section.dark p{color:#bed2dc}
+.sa-section.light .sa-number{color:#007c8a}
+.sa-section.light .sa-card a:hover{text-decoration:underline}
+.rc19-business-visual{border:1px solid #315967;border-radius:22px;overflow:hidden;box-shadow:0 24px 65px #0003;background:#0c2734}
+.rc19-business-visual img{display:block;width:100%;height:auto;border-radius:0;box-shadow:none}
+.cta-panel::before,.cta-panel::after{content:none!important;display:none!important}
+@media(max-width:1050px){.rc6-hero .hero-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.rc6-hero h1{font-size:clamp(36px,4.4vw,56px)}}
+@media(max-width:800px){.container{width:calc(100% - 36px)}.rc6-hero .hero-grid,.sa-feature{grid-template-columns:1fr;gap:26px}.rc6-hero{padding:28px 0 48px}.rc6-photo img{aspect-ratio:1.55}.sa-section{padding:58px 0}.sa-cards{grid-template-columns:1fr}.sa-phoenix-panel{grid-template-columns:1fr;padding:24px}}
+@media(max-width:480px){.container{width:calc(100% - 28px)}.rc6-hero h1{font-size:clamp(34px,9vw,48px)}.rc6-photo img{aspect-ratio:1.25}.sa-card{padding:22px}.cta-panel{padding:26px}}

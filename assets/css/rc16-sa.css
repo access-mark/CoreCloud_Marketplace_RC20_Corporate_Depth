@@ -1,0 +1,25 @@
+
+/* RC16 South African experience — clean corporate system */
+.rc6-photo:after,.rc6-photo:before,.hero-art:after,.software-hero:after{content:none!important;display:none!important}
+.rc6-photo{isolation:isolate;overflow:hidden;border-radius:22px;box-shadow:0 28px 75px rgba(0,0,0,.28)}
+.rc6-photo img{display:block;width:100%;height:100%;object-fit:cover;border-radius:22px;mask-image:none!important}
+.rc6-hero{background:linear-gradient(112deg,#061522 0%,#0a2130 63%,#103d47 100%)}
+.rc6-hero .hero-grid{align-items:center;padding-top:40px;padding-bottom:40px}
+.rc6-hero h1{font-size:clamp(48px,5.4vw,88px);letter-spacing:-.055em}
+.rc6-hero .lead{max-width:640px}
+.sa-eyebrow{font-size:11px;font-weight:800;letter-spacing:.19em;color:#56e3d9;text-transform:uppercase}
+.sa-pill{display:inline-flex;gap:8px;align-items:center;padding:9px 14px;border:1px solid #86e1d846;border-radius:999px;color:#c9f5f0;font-size:12px;font-weight:700;margin-bottom:22px}
+.sa-hero-note{margin-top:23px;color:#a9c4ce;font-size:13px;line-height:1.6}
+.sa-section{padding:90px 0}.sa-section.light{background:#f3f7f9}.sa-section.dark{background:#071a27;color:#fff}
+.sa-section h2{font-size:clamp(32px,3.6vw,55px);letter-spacing:-.05em;line-height:1.1;margin:14px 0 20px}
+.sa-section.dark h2{color:#fff}.sa-section .sa-intro{font-size:17px;line-height:1.8;color:#526b79;max-width:770px}.sa-section.dark .sa-intro{color:#a8c2cd}
+.sa-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:34px}
+.sa-card{border:1px solid #dce7ed;border-radius:20px;padding:30px;background:white;box-shadow:0 18px 50px #071b2909;display:flex;flex-direction:column;gap:12px}
+.sa-card .sa-number{font-size:11px;letter-spacing:.17em;color:#008f9d;font-weight:800}.sa-card h3{font-size:24px;letter-spacing:-.035em;margin:0}.sa-card p{color:#516879;line-height:1.7;flex:1;margin:0}.sa-card a{color:#006d7e;font-weight:800;text-decoration:none;margin-top:12px}
+.sa-feature{display:grid;grid-template-columns:1.02fr 1fr;gap:60px;align-items:center}.sa-feature img{width:100%;height:auto;border-radius:22px;display:block;box-shadow:0 20px 55px #071b2920}
+.sa-checks{display:grid;gap:15px;margin:26px 0}.sa-check{border-left:3px solid #12b7b4;padding-left:17px;line-height:1.65;color:#476070}.sa-check b{display:block;color:#102b39}
+.sa-phoenix-panel{display:grid;grid-template-columns:300px 1fr;gap:45px;align-items:center;background:linear-gradient(125deg,#0b2735,#09202b);border:1px solid #31545d;border-radius:24px;padding:44px;margin-top:36px}
+.sa-phoenix-panel img{width:100%;max-height:180px;object-fit:contain}.sa-phoenix-panel h3{font-size:32px;color:#fff;margin:8px 0 12px}.sa-phoenix-panel p{color:#bed3d9;line-height:1.75}.sa-phoenix-panel .btn{margin-top:15px}
+.sa-note{font-size:13px;color:#7e9da8;margin-top:20px}.sa-footer-tag{font-weight:700;color:#c6f3e9}
+@media(max-width:950px){.sa-cards{grid-template-columns:1fr 1fr}.sa-feature,.sa-phoenix-panel{grid-template-columns:1fr}.sa-phoenix-panel img{max-width:240px}}
+@media(max-width:650px){.sa-cards{grid-template-columns:1fr}.sa-section{padding:65px 0}.sa-phoenix-panel{padding:26px}.rc6-hero .hero-grid{padding-top:30px;padding-bottom:30px}.rc6-photo{border-radius:16px}}

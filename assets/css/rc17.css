@@ -1,0 +1,27 @@
+
+/* RC17 - site-wide polish */
+:root{--rc17-accent:#41e1d0}
+body{overflow-x:hidden}
+.hero-art::before,.hero-art::after,.rc6-photo::before,.rc6-photo::after{content:none!important;display:none!important}
+.hero-art img,.rc6-photo img{max-width:100%;height:auto}
+.rc17-showcase{padding:78px 0;background:linear-gradient(140deg,#071723,#0d2731);border-top:1px solid #1a3640;border-bottom:1px solid #1a3640}
+.rc17-kicker{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#43e0cf}
+.rc17-showcase h2,.rc17-section h2{font-size:clamp(30px,4vw,50px);line-height:1.12;letter-spacing:-.04em;margin:16px 0}
+.rc17-lead{max-width:780px;color:#c6d6df;font-size:18px;line-height:1.7}
+.rc17-screen-frame{margin-top:32px;padding:10px;background:#0b1118;border:1px solid #284b53;border-radius:18px;box-shadow:0 28px 80px #0007;overflow:hidden}
+.rc17-screen-frame img{display:block;width:100%;height:auto;border-radius:10px;object-fit:contain}
+.rc17-screen-placeholder{min-height:260px;display:grid;place-items:center;text-align:center;background:#0a151c;color:#b6c9d3;padding:35px;border-radius:10px}
+.rc17-screen-placeholder strong{display:block;font-size:20px;color:#fff;margin-bottom:10px}
+.rc17-screen-caption{color:#9ab4bf;font-size:13px;margin-top:15px}
+.rc17-section{padding:75px 0}
+.rc17-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:28px}
+.rc17-tile{padding:27px;border:1px solid #25414b;border-radius:15px;background:linear-gradient(140deg,#10232d,#0c1b25)}
+.rc17-tile strong{display:block;font-size:20px;color:#f5fbff;margin-bottom:12px}
+.rc17-tile p{color:#bdcbd4;line-height:1.65;margin:0}
+.rc17-breadcrumb{display:flex;gap:8px;align-items:center;color:#a7c0cb;font-size:13px;padding:16px 0}
+.rc17-breadcrumb a{color:#56e2d3;text-decoration:none}
+.rc17-info{margin-top:24px;padding:18px 22px;border-left:3px solid #43e0cf;background:#10252d;color:#cbdbe3;line-height:1.65}
+.rc17-visual{width:100%;height:230px;object-fit:cover;border-radius:14px;display:block;margin:24px 0}
+.rc17-slim-hero{padding:60px 0 45px}
+.rc17-hidden-from-public{display:none!important}
+@media(max-width:800px){.rc17-grid{grid-template-columns:1fr}.rc17-section,.rc17-showcase{padding:48px 0}.rc17-screen-frame{padding:5px;border-radius:10px}.rc17-screen-frame img{border-radius:6px}}
